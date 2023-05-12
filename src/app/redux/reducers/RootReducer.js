@@ -8,6 +8,7 @@ const RootReducer = combineReducers({
   notifications: NotificationReducer,
   navigations: NavigationReducer,
   ecommerce: EcommerceReducer,
+  product: ProductReducer,
 });
 
 export default RootReducer;
